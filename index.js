@@ -1,14 +1,20 @@
-var prompt = require('prompt-sync')();
+import readline from "readline-sync";
 
 const propriedade = [];
 
-do {
-  var option = (prompt('Qual propriedade css você quer? ')).toUpperCase();
-  if (option != "SAIR") {
-    propriedade.push(option);
+function propriedadeCss() {
+
+  let entradaDados = (readline.question('Insira uma propriedade CSS ou  digite sair: ')).toUpperCase();
+  if (entradaDados != "SAIR") {
+    propriedade.push(entradaDados);
+    propriedadeCss();
+  }else{
+    let propriedadeOrdenada = propriedade.sort();
+    propriedadeOrdenada.forEach((e)=>{
+      console.log(e);
+    });
   }
-} while (option !="SAIR");
+}
+propriedadeCss();
 
-const propriedadeOrdenda = propriedade.sort();
 
-console.log(propriedadeOrdenda);
