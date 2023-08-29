@@ -1,16 +1,34 @@
 {
+  "type": "module",
   
   "name": "proj-individual",
+  
   "version": "1.0.0",
+  
   "description": "",
+  
   "main": "index.js",
+  
   "scripts": {
-    "start": "node ./index.js"
+  
+    
+  "start": "node ./index.js"
+  
   },
+  
   "keywords": [],
+  
   "author": "",
+  
   "license": "ISC",
+  
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+  
+    
+  "prompt-sync": "^4.2.0",
+  
+    
+  "readline-sync": "^1.4.10"
+  
   }
 }
