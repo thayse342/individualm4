@@ -38,9 +38,24 @@ npm install
 ```
 
 
-
  
-## Demonstração
+## Demonstração do Projeto Rodando:
 
-**
+
+```
+Insira uma propriedade CSS ou  digite sair: flex
+Insira uma propriedade CSS ou  digite sair: z-index
+Insira uma propriedade CSS ou  digite sair: align-items
+Insira uma propriedade CSS ou  digite sair: sair
+ALIGN-ITEMS
+FLEX
+Z-INDEX
+
+```
+
+## Referência
+
+ - [NodeJS](https://nodejs.org/en/docs)
+ - [readline-sync](https://www.npmjs.com/package/readline-sync)
+
 
